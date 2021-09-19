@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.umeshsingh.bookhub.fragment.ProfileFragment">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/imgAppLogo"
+        android:layout_width="145dp"
+        android:layout_height="135dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        app:cardCornerRadius="150dp">
+
+        <ImageView
+            android:layout_width="145dp"
+            android:layout_height="135dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_profile"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/txtUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgAppLogo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:text="@string/umesh_singh"
+        android:textColor="#000000"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtPhoneNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtUserName"
+        android:layout_centerHorizontal="true"
+        android:padding="5dp"
+        android:layout_marginTop="15dp"
+        android:textColor="#000000"
+        android:text="+91 9876543210"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/txtEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtPhoneNumber"
+        android:layout_centerHorizontal="true"
+        android:padding="10dp"
+        android:layout_marginTop="15dp"
+        android:text="somethingXYZ@gmail.com"
+        android:textColor="#000000"
+        android:textSize="17dp" />
+
+
+    <TextView
+        android:id="@+id/txtLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtEmail"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:drawableLeft="@drawable/ic_location"
+        android:padding="10dp"
+        android:text="@string/india"
+        android:textSize="21dp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Book Hub</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="profile">Profile</string>
+    <string name="favourites">Favourites</string>
+    <string name="about">About</string>
+    <string name="book_mart">Book Hub</string>
+    <string name="open_drawer">Open Drawer</string>
+    <string name="close_drawer">Close Drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dashboard_fragment">Dashboard Fragment</string>
+    <string name="profile_fragment">Profile Fragment</string>
+    <string name="favourites_fragment">Favourites Fragment</string>
+    <string name="about_fragment">About Fragment</string>
+    <string name="add_to_favourites">Add To Favourites</string>
+    <string name="action_sort">Sort</string>
+    <string name="txt_favorite_fragment">Favorite Fragment</string>
+    <string name="copyright_2021_by_umesh_singh">Copyright © 2021 by Umesh Singh</string>
+    <string name="india">India</string>
+    <string name="umesh_singh">Umesh Singh</string>
+    <string name="by">by</string>
+    <string name="developed">Developed</string>
+    <string name="info_in_about">Book Hub app is a book store where we can learn, read, study and grow with the help of books provided on this platform. We can access a large number of books fetched via internet. We can also make them favorite in this app and can remove them from favorites list. This app was made by a Student.</string>
+    <string name="app_version_1_0">App Version: 1.0</string>
+</resources>
