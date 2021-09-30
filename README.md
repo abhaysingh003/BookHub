@@ -1,6 +1,13 @@
 # BookHub
 BookHub is a basic Android app based on the concepts of fragment, volley library, recycler view, navigation drawer, database (room), internet access, etc.
 
+**Feature of the BookHub app:**
+- View a list of Books
+- Get details about a Book
+- Add books to favorites
+- Check our profile
+- Check information about the developer
+
 
 ## Screenshots
 
